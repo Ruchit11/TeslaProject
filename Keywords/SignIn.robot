@@ -1,5 +1,6 @@
 *** Settings ***
 Library  Selenium2Library
+Library  OS
 
 *** Variables ***
 ${SIGN_IN_EMAIL} =          xpath=//cui-input[@options='email']/div/input
@@ -9,7 +10,7 @@ ${LOGIN_SUBMIT_BUTTON} =    xpath=//button[@name='&lid=Log In']
 *** Keywords ***
 Navigate To
     ${SignInUrl} =  Catenate  SEPARATOR=/  ${BASE_URL.${ENVIRONMENT}}  ${LOGIN_URL}
-    go to  ${SignInUrl}
+    go to  ${SignInUrl} 
 
 Enter Credentials
     [Arguments]  ${Credentials}
