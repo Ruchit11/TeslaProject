@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171025 21:49:58.304" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\Ruchit\PycharmProjects\RuchitProject\Keywords\Cars.robot" id="s1" name="Cars">
+<test id="s1-t1" name="Invalid login scenarios should display correct error messages">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser">
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20171025 21:49:59.175" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20171025 21:49:59.176" starttime="20171025 21:49:59.175"></status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.177" starttime="20171025 21:49:59.164"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close All Browsers">
+<msg timestamp="20171025 21:49:59.193" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" endtime="20171025 21:49:59.193" starttime="20171025 21:49:59.192"></status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.194" starttime="20171025 21:49:59.178">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.194" critical="yes" starttime="20171025 21:49:59.161">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<test id="s1-t2" name="My Test">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser">
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20171025 21:49:59.209" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20171025 21:49:59.209" starttime="20171025 21:49:59.208"></status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.210" starttime="20171025 21:49:59.198"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close All Browsers">
+<msg timestamp="20171025 21:49:59.230" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" endtime="20171025 21:49:59.230" starttime="20171025 21:49:59.230"></status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.231" starttime="20171025 21:49:59.211">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<status status="FAIL" endtime="20171025 21:49:59.232" critical="yes" starttime="20171025 21:49:59.196">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<doc>Demonstrate a need for data-driven testing</doc>
+<status status="FAIL" endtime="20171025 21:49:59.233" starttime="20171025 21:49:58.368"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="0">Critical Tests</stat>
+<stat fail="2" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="Cars" pass="0">Cars</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20171025 21:49:59.091" level="ERROR">Error in file 'C:\Users\Ruchit\PycharmProjects\RuchitProject\Keywords\Common.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\WINDOWS\SYSTEM32\python27.zip
+  C:\Users\Ruchit\Python27\DLLs
+  C:\Users\Ruchit\Python27\lib
+  C:\Users\Ruchit\Python27\lib\plat-win
+  C:\Users\Ruchit\Python27\lib\lib-tk
+  C:\Users\Ruchit\Python27
+  C:\Users\Ruchit\Python27\lib\site-packages</msg>
+<msg timestamp="20171025 21:49:59.155" level="ERROR">Error in file 'C:\Users\Ruchit\PycharmProjects\RuchitProject\Keywords\SignIn.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\WINDOWS\SYSTEM32\python27.zip
+  C:\Users\Ruchit\Python27\DLLs
+  C:\Users\Ruchit\Python27\lib
+  C:\Users\Ruchit\Python27\lib\plat-win
+  C:\Users\Ruchit\Python27\lib\lib-tk
+  C:\Users\Ruchit\Python27
+  C:\Users\Ruchit\Python27\lib\site-packages</msg>
+</errors>
+</robot>
