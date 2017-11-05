@@ -1,5 +1,7 @@
 *** Settings ***
 Documentation  Demonstrate a need for data-driven testing
+
+Library   Selenium2Library
 Resource  InputData.robot
 Resource  Common.robot
 Resource  CarsApp.robot
